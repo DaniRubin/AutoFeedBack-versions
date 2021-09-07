@@ -314,6 +314,9 @@ def main(is_staff):
 
     scenario_feedback = u'eval(' + json.dumps(total_scenario_feedback) + u')'
 
+    specific_clue_section = ''
+    if (not all_clues == ''):
+        specific_clue_section = '<div class="feedback_box" id="code_feedback">' + all_clues + '</div>'
 
 
 
@@ -391,6 +394,9 @@ def main(is_staff):
         #code_clue {
            margin-top:-15px; font-size:16px; text-align:right; display: none; direction:rtl; margin-bottom:20px; margin-right:-15px; padding:15px; background-color: #e7e7e7; border:1px solid #bbb;
         }
+        .feedback_box {
+           margin-right:-15px;margin-left:15px; font-size:16px; text-align:right; direction:rtl; padding:15px; background-color: #e7e7e7; border:1px solid #bbb;
+        }
         #close_clue {
             color: #00729A; cursor: pointer;
         }
@@ -427,7 +433,7 @@ def main(is_staff):
 
     casing_section = style_section + toggle_sector 
     
-    feedback_output_html = two_parts[0] + casing_section + create_clue() + create_solution() + '</body>' + two_parts[1]
+    feedback_output_html = two_parts[0] + casing_section + specific_clue_section + create_clue() + create_solution() + '</body>' + two_parts[1]
     logging.debug(feedback_output_html)
 
 

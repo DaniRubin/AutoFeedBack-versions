@@ -21,6 +21,8 @@ import copy
 SYNTAX_ERROR_FEEDBACK_MSG = 'בקוד יש שגיאת/ות נוראיות, האם אתה יודע בכלל פייתון?!. דבגו את הקוד והגישו שוב.'
 SYNTAX_ERROR_FEEDBACK_MSG_ORIGIN = 'בקוד יש שגיאת/ות תחביר. דבגו את הקוד והגישו שוב.'
 
+#SYNTAX_ERROR_FEEDBACK_MSG = 'בקוד יש שגיאת/ות תחביר. פרטי השגיאה הראשונה שזוהתה מופיעים במסגרת שלפניכם (מספר השורה, סוג השגיאה).- מיקום שגיאת syntax מסומן ב-^- indentation error (שגיאת הזחה): לרוב בגלל tab/רווח חסר או מיותר. במקרה של שגיאת הזחה, שימו לב שלעתים השגיאה מדווחת על השורה שלאחר ההזחה השגויה.'
+
 #
 SIGNATURE_FEEDBACK_MSG = ('חתימת הפונקציה בכלל לא בכיוון, שווה לשקול לשנות מקצוע ולוותר על החלום.\n' +
                           'חתימת הפונקציה המצופה:\n' +
@@ -34,11 +36,13 @@ FUNC_NAME_FEEDBACK_MSG = (' ושם הפונקציה לא בכיווןן דני �
 FUNC_NAME_FEEDBACK_MSG_ORIGIN = ('שם הפונקציה אינו תואם לנדרש במטלה.' +
                           'שם הפונקציה המצופה:\n' +
                           '{}\n')
+#
 
-# I am not sure how to get this errors :\
 CODE_ERROR_FEEDBACK_MSG = 'בקוד יש שגיאת/ות וריצתו לא הושלמה. דבגו את הקוד והגישו שוב.'
 FUNC_ERROR_FEEDBACK_MSG = 'בהרצת הפונקציה התרחשה שגיאה. דבגו את הקוד והגישו שוב.'
+
 INPUT_COMMAND_ERROR_FEEDBACK_MSG = 'אין צורך לעשות שימוש בפקודה לקליטת קלט מהמשתמש, הסירו את הפקודה מהקוד והגישו שוב - input'
+
 
 DIRECTORY_PATH = os.path.dirname(os.path.realpath(__file__))
 
@@ -487,6 +491,16 @@ def deliver_results(OUTPUT_HTML_PAGE, output_json={}, results={}):
 
     all_clues = ''
     big_clue_data = ''
+    # hagit: initiate 2 counters and sum all values of "None" or "התרחשה שגיאה"
+    count_None = 0
+    count_error_occure = 0
+    for item, i in enumerate(total_scenario_feedback):
+        if(total_scenario_feedback[str(item)]['returned_value'] == 'התרחשה שגיאה'):  
+            count_error_occure += 1
+        if(total_scenario_feedback[str(item)]['returned_value'] == 'None'):
+            count_None += 1
+    ####
+    
     for index, key in enumerate(list(sorted(total_scenario_feedback.keys()))):
         current_student_file_path = all_student_tasks[index]
         logging.debug('Running over scenerio number - ' + str(key))
@@ -502,13 +516,26 @@ def deliver_results(OUTPUT_HTML_PAGE, output_json={}, results={}):
             else :
                 logging.debug("No CLUE for this!")
 
-
         if('MAIN_CLUE' in list(file_content.keys())):
             big_clue_data += file_content['MAIN_CLUE']
-
-    specific_clue_section = '</table>'
-    if (not all_clues == ''):
+            
+    # hagit: check if all returen values are "None" or "התרחשה שגיאה"
+    # if so, enter the appropriate text   
+    if (count_None == item + 1):
+        all_clues = "הרצת הפונקציה מסתיימת מבלי שמוחזרת תוצאה. אולי אין קריאה ל-return, או שהקריאה ל-return היא ללא ערך מוחזר? אולי ההרצה לא מגיעה לקריאה ל-return בשל תנאי שאינו מתקיים?"
+    if (count_error_occure == item + 1):
+        all_clues = "בקוד ישנה שגיאה שאינה שגיאת תחביר, כמו למשל שימוש במשתנה או בפונקציה שאינם מוגדרים. <br/>שימו לב: איות לא נכון של הערכים הבוליאנים False, True גם הוא למעשה שימוש במשתנה לא מוגדר"
+    ###
+    
+    if(all_clues == ''):
+        specific_clue_section = '</table>'
+    else:
+        if (count_None < item + 1 and count_error_occure < item + 1): 
+        # hagit: add this header to the msg, but only if not all "None" or "התרחשה שגיאה"
+            all_clues = " כל תרחיש בודק קלט עם מאפיין מסוים.<br/>" + all_clues
+       ###
         specific_clue_section = new_section_start + all_clues + new_section_end
+
 
 
 
@@ -534,7 +561,7 @@ def deliver_results(OUTPUT_HTML_PAGE, output_json={}, results={}):
             'section_click': id
         }
         var settings = {
-            "url": "http://localhost:5555/save_data",
+            "url": "http://35.85.48.63:7500/save_data",
             "method": "POST",
             "timeout": 0,
             "headers": {
