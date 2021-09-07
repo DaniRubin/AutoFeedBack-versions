@@ -1,0 +1,14 @@
+{
+  "id": "03-odd length string",
+  "name": "מחרוזת באורך אי זוגי",
+  "description": "התכנית תקלוט מחרוזת באורך אי זוגי (astronaut) ותחזיר אותה כאשר חציה הראשון באותיות קטנות וחציה השני (כולל התו האמצעי) באותיות גדולות (astrONAUT).",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "מחרוזת באורך אי זוגי", "value": "astronaut"},
+    {"type": "output", "name": "המחרוזת לאחר השינויים", "value": "astrONAUT"}
+  ]
+}

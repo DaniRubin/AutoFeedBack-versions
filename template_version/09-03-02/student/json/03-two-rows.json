@@ -1,0 +1,20 @@
+{
+  "id": "02 - two rows",
+  "name": "",
+  "description": "",
+  "method_name": "my_mp4_playlist",
+  "method_signature": "my_mp4_playlist(file_path, new_song)",
+  "test": [
+    {"type": "equal",
+      "args": ["./student/files/two-rows.txt","Hello"],
+      "expected": null,
+      "expected_stdout":[
+        "Tudo Bom;Static and Ben El Tavori;5:13;",
+        "Hello;Unknown;4:15;",
+        "Hello;"
+      ],
+      "error": "",
+      "error_message_in_case_of_print_outs": "הפונקציה לא הדפיסה את הפלט הצפוי"
+    }
+  ]
+}

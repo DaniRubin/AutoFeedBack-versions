@@ -1,0 +1,14 @@
+{
+  "id": "01-past date",
+  "name": "התאמת יום בשבוע לתאריך בעבר",
+  "description": "התכנית תקבל תאריך בעבר (16/01/2000) ותדפיס את יום השבוע בו הוא התרחש (Sunday).",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "תאריך בעבר", "value": "16/01/2000"},
+    {"type": "output", "name": "יום השבוע המתאים", "value": "Sunday"}
+  ]
+}

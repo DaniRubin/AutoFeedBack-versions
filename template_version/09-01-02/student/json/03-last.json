@@ -1,0 +1,18 @@
+{
+  "id": "03-last",
+  "name": "שורות אחרונות",
+  "description": "התכנית תקלוט נתיב קובץ ואת הפקודה sort. לאחר מכן תקבל את המספר 3 ותדפיס את 3 השורות האחרונות של הקובץ.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "נתיב הקובץ", "value": "./sampleFile.txt"},
+    {"type": "input", "name": "הפקודה", "value": "last"},
+    {"type": "input", "name": "מספר השורות להדפסה", "value": "3"},
+    {"type": "output", "name": "שורה 1", "value": "If the implementation is hard to explain it's a bad idea"},
+    {"type": "output", "name": "שורה 2", "value": "If the implementation is easy to explain it may be a good idea"},
+    {"type": "output", "name": "שורה 2", "value": "Namespaces are one honking great idea -- let's do more of those"}
+  ]
+}

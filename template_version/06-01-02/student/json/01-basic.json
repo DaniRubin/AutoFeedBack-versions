@@ -1,0 +1,14 @@
+{
+  "id": "01-basic list",
+  "name": "התמודדות עם רשימת מספרים",
+  "description": "הפונקציה format_list תקבל רשימה בת 3 מספרים ותחזיר עותק שלה מוזזת שמאלה.",
+  "method_name": "shift_left",
+  "method_signature": "shift_left(my_list)",
+  "test": [
+    {"type": "equal",
+      "args": [[7,1,33]],
+      "expected": [1,33,7],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

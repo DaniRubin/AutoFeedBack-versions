@@ -1,0 +1,28 @@
+{
+  "id": "04-add&remove",
+  "name": "מחיקת והוספת פריטים",
+  "description": "התכנית תקלוט רשימת קניות, תקבל שתי פקודות מחיקה לשניים מבפריטים בה ופקודת הוספה לפריט חדש. לאחר מכן תקבל פקודת ספירה ושתי פקודות חיפוש. לבסוף תקבל התכנית פקודת יציאה ותסתיים.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "רשימת קניות", "value": "apple,banana,coconut"},
+    {"type": "input", "name": "פקודת מחיקת פריט", "value": "5"},
+    {"type": "input", "name": "פריט 1 למחיקה", "value": "banana"},
+    {"type": "input", "name": "פקודת מחיקצ פריט", "value": "5"},
+    {"type": "input", "name": "פריט 2 למחיקה", "value": "coconut"},
+    {"type": "input", "name": "פקודת הוספת פריט", "value": "6"},
+    {"type": "input", "name": "הפריט להוספה", "value": "apple seeds"},
+    {"type": "input", "name": "פקודת הדפסת אורך", "value": "2"},
+    {"type": "output", "name": "אורך הרשימה לאחר השינויים", "value": "2"},
+    {"type": "input", "name": "פקודת חיפוש פריט", "value": "3"},
+    {"type": "input", "name": "הפריט החדש שנוסף", "value": "apple seeds"},
+    {"type": "output", "name": "האם הפריט נמצא", "value": "True"},
+    {"type": "input", "name": "פקודת חיפוש פריט", "value": "3"},
+    {"type": "input", "name": "הפריט החדש שנוסף", "value": "banana"},
+    {"type": "output", "name": "האם הפריט נמצא", "value": "False"},
+    {"type": "input", "name": "פקודת יציאה", "value": "9"}
+  ]
+}

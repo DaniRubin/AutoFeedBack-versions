@@ -1,0 +1,14 @@
+{
+  "id": "03-mixed",
+  "name": "חלק מן המפתחות זהים",
+  "description": "הפונקציה מקבלת מילון שחלק מערכיו זהים",
+  "method_name": "inverse_dict",
+  "method_signature": "inverse_dict(my_dict)",
+  "test": [
+    {"type": "equal",
+      "args": [{ "ab": "cd" , "bb":"cd", "cc": "dd"}],
+      "expected": {"cd":["ab","bb"],"dd":["cc"]},
+      "error": "הפונקציה לא החזירה את המילון הצפוי"
+    }
+  ]
+}

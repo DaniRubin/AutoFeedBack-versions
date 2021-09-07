@@ -1,0 +1,13 @@
+{
+  "id": "02-different order list",
+  "name": "זיהוי רשימות בעלות איברים זהים",
+  "description": "הפונקציה are_lists_equal תקבל שתי רשימות שונות אך תאשר שהן מכילות את אותם איברים.",
+  "method_name": "are_lists_equal",
+  "test": [
+    {"type": "equal",
+      "args": [[1, 2, 3.5], [2, 3.5, 1]],
+      "expected": true,
+      "error": "הפונקציה לא החזירה True"
+    }
+  ]
+}

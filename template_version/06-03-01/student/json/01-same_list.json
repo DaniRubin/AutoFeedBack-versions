@@ -1,0 +1,14 @@
+{
+  "id": "01-same order list",
+  "name": "זיהוי רשימות זהות",
+  "description": "הפונקציה are_lists_equal תקבל שתי רשימות זהות ותאשר שהן מכילות את אותם איברים.",
+  "method_name": "are_lists_equal",
+  "method_signature": "are_lists_equal(list1, list2)",
+  "test": [
+    {"type": "equal",
+      "args": [[1, 2, 3.5], [1, 2, 3.5]],
+      "expected": true,
+      "error": "הפונקציה לא החזירה True"
+    }
+  ]
+}

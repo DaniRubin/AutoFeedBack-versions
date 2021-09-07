@@ -1,0 +1,24 @@
+accessible: true
+author: ''
+context: 'Note that the order of the inner tuples is not important, but they must
+  all appear, and only the correct one.
+
+
+  For example, if the function parameters are (1) and (2), both (1,2) and (2,1) should
+  be returned, but not necessarily in that order.
+
+
+  Paste your Python code here:'
+environment: intro2
+evaluate: best
+groups: false
+limits: {memory: '100', output: '2', time: '30'}
+name: 8.2.3
+network_grading: false
+order: 823
+problems:
+  program: {header: '', language: python, name: '', type: code}
+stored_submissions: 0
+submission_limit: {amount: -1, period: -1}
+type: python-unit-test
+weight: 4.0

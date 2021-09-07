@@ -1,0 +1,14 @@
+{
+  "id": "02-future date",
+  "name": "התאמת יום בשבוע לתאריך בעתיד",
+  "description": "התכנית תקבל תאריך בעתיד (25/06/2020) ותדפיס את יום השבוע בו הוא יתרחש (Thursday).",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "תאריך בעתיד", "value": "25/06/2020"},
+    {"type": "output", "name": "יום השבוע המתאים", "value": "Thursday"}
+  ]
+}

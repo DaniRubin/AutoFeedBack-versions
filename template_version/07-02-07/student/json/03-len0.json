@@ -1,0 +1,14 @@
+{
+  "id": "03-len0",
+  "name": "אי יצירת חץ",
+  "description": " ",
+  "method_name": "arrow",
+  "method_signature": "arrow(my_char, max_length)",
+  "test": [
+    {"type": "equal",
+      "args": ["*", 0],
+      "expected": "",
+      "error": "הפונקציה לא החזירה את החץ כראוי"
+    }
+  ]
+}

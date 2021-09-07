@@ -1,0 +1,14 @@
+{
+  "id": "01-long list",
+  "name": "הדפסת רשימה של מחרוזות",
+  "description": "הפונקציה format_list תקבל רשימה של מחרוזות ותחזיר מחרוזת חלקית של אבריה.",
+  "method_name": "format_list",
+  "method_signature": "format_list(my_list)",
+  "test": [
+    {"type": "equal",
+      "args": [["hydrogen", "helium", "lithium", "beryllium", "boron", "magnesium"]],
+      "expected": "hydrogen, lithium, boron, and magnesium",
+      "error": "הפונקציה לא החזירה את המחרוזת הצפויה"
+    }
+  ]
+}

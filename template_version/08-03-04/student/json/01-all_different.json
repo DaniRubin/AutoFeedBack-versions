@@ -1,0 +1,14 @@
+{
+  "id": "01-all different",
+  "name": "אין מפתחות זהים",
+  "description": "הפונקציה מקבלת מילון אשר כל ערכיו שונים",
+  "method_name": "inverse_dict",
+  "method_signature": "inverse_dict(my_dict)",
+  "test": [
+    {"type": "equal",
+      "args": [{ "a": "b" , "b":"c", "c": "d"}],
+      "expected": {"d":["c"], "c":["b"], "b":["a"]},
+      "error": "הפונקציה לא החזירה את המילון הצפוי"
+    }
+  ]
+}

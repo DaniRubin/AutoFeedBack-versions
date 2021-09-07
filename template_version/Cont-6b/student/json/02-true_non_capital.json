@@ -1,0 +1,14 @@
+{
+  "id": "02-non capital not in list",
+  "name": "התמודדות עם תו גדול",
+  "description": "הפונקציה תקבל תו גדול שלא נוחש בעבר",
+  "method_name": "try_update_letter_guessed",
+  "method_signature": "try_update_letter_guessed(letter_guessed, old_letters_guessed)",
+  "test": [
+    {"type": "equal",
+      "args": ["Z", ["a","b","c"]],
+      "expected": true,
+      "error": "הפונקציה לא החזירה True"
+    }
+  ]
+}

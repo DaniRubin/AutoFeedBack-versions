@@ -1,0 +1,14 @@
+{
+  "id": "02-single char string",
+  "name": "החלפת התווים עבור מחרוזת באורך 1",
+  "description": "התכנית תקלוט מחרוזת בעלת תו יחיד ותחזיר אותה כפי שביא בהתאם להוראות.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "המחרוזת לפני ההחלפה", "value": "A"},
+    {"type": "output", "name": "המחרוזת אחרי ההחלפה", "value": "A"}
+  ]
+}

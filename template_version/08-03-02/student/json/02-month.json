@@ -1,0 +1,14 @@
+{
+  "id": "02-month",
+  "name": "הדפסת חודש הלידה",
+  "description": "התכנית תקלוט '2' ותדפיס את חודש לידתה של מריה.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "פקודת קלט", "value": "2"},
+    {"type": "output", "name": "חודש לידתה של מריה", "value": "3"}
+  ]
+}

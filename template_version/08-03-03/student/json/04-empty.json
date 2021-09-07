@@ -1,0 +1,14 @@
+{
+  "id": "04 - empty",
+  "name": "מחרוזת ריקה",
+  "description": "הפונקציה מקבלת מחרוזת ריקה",
+  "method_name": "count_chars",
+  "method_signature": "count_chars(my_str)",
+  "test": [
+    {"type": "equal",
+      "args": [""],
+      "expected": {},
+      "error": "הפונקציה לא החזירה את המילון הצפוי"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "05- long guess",
+  "name": "התמודדות עם קלט אשר יותר מתו בודד",
+  "description": "הפונקציה תקבל כקלט מחרוזת המכילה יותר מתו בודד",
+  "method_name": "check_valid_input",
+  "method_signature": "check_valid_input(letter_guessed, old_letters_guessed)",
+  "test": [
+    {"type": "equal",
+      "args": ["de", ["a","b","c"]],
+      "expected": false,
+      "error": "הפונקציה לא החזירה False"
+    }
+  ]
+}

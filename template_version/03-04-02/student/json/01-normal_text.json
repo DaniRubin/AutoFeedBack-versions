@@ -1,0 +1,14 @@
+{
+  "id": "01-normal string",
+  "name": "החלפת התווים עבור מחרוזת רגילה",
+  "description": "התכנית תקלוט מחרוזת, תזהה מהו התו הראשון בה ותחליף את כל הופעותיו, מלבד הראשונה, באות e.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "המחרוזת לפני ההחלפה", "value": "ddar astronaut. pldase, stop drasing md!"},
+    {"type": "output", "name": "המחרוזת אחרי ההחלפה", "value": "dear astronaut. please, stop erasing me!"}
+  ]
+}

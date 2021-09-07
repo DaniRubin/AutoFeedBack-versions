@@ -1,0 +1,17 @@
+{
+  "id": "05-weird",
+  "name": "הדפסת פריטים בלתי חוקיים",
+  "description": "התכנית תקלוט רשימת קניות ולאחר מכן תקבל פקודת הדפסה עבור המוצרים הלא חוקיים ברשימה ותדפיס אותם. לבסוף תקבל פקודת יציאה ותסתיים.",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "רשימת קניות", "value": "apple,banana,coconut,T,7 UP"},
+    {"type": "input", "name": "פקודת בדפסת המוצרים הבלתי חוקיים", "value": "7"},
+    {"type": "output", "name": "רשימת המוצרים הלא חוקיים", "value": "T"},
+    {"type": "output", "name": "רשימת המוצרים הלא חוקיים", "value": "7 UP"},
+    {"type": "input", "name": "פקודת יציאה", "value": "9"}
+  ]
+}

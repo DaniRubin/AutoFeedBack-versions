@@ -1,0 +1,20 @@
+{
+  "id": "02 - short",
+  "name": "",
+  "description": "",
+  "method_name": "my_mp4_playlist",
+  "method_signature": "my_mp4_playlist(file_path, new_song)",
+  "test": [
+    {"type": "equal",
+      "args": ["./student/files/songs-short.txt","Hello"],
+      "expected": null,
+      "expected_stdout":[
+        "Where is the love?;The Black Eyed Peas;4:13;",
+        "",
+        "Hello;"
+      ],
+      "error": "",
+      "error_message_in_case_of_print_outs": "הפונקציה לא הדפיסה את הפלט הצפוי"
+    }
+  ]
+}

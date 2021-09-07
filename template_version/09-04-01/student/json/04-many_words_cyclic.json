@@ -1,0 +1,15 @@
+{
+  "id": "04 - many words cyclic",
+  "name": "בדיקה ציקלית",
+  "description": "הפונקציה תקבל אינדקס הגדול ממספר המילים בקובץ",
+  "method_name": "choose_word",
+  "method_signature": "choose_word(file_path, index)",
+  "test": [
+    {"type": "equal",
+      "args": ["./student/files/words.txt",8],
+      "expected": [4, "cat"],
+      "error": "הפונקציה לא החזירה את הפלט הצפוי",
+      "error_message_in_case_of_print_outs": ""
+    }
+  ]
+}

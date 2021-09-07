@@ -1,0 +1,14 @@
+{
+  "id": "01-basic",
+  "name": "קליטת רשימה ויציאה",
+  "description": "התכנית תקלוט רשימת קניות, תקבל פקודת יציאה ותסתיים.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "רשימת קניות", "value": "apple,banana,coconut"},
+    {"type": "input", "name": "פקודת יציאה", "value": "9"}
+  ]
+}

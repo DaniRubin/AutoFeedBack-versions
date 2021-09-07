@@ -1,0 +1,13 @@
+{
+  "id": "02-0 boom",
+  "name": "שבע בום",
+  "description": "הפונקציה תקבל את הספרה 0 ותחזיר רשימה בת איבר אחד.",
+  "method_name": "seven_boom",
+  "test": [
+    {"type": "equal",
+      "args": [0],
+      "expected": ["BOOM"],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

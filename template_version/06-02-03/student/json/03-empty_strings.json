@@ -1,0 +1,14 @@
+{
+  "id": "03-empty strings",
+  "name": "הדפסת רשימה של מחרוזות",
+  "description": "הפונקציה format_list תקבל רשימה של מחרוזות ותחזיר מחרוזת חלקית של אבריה.",
+  "method_name": "format_list",
+  "method_signature": "format_list(my_list)",
+  "test": [
+    {"type": "equal",
+      "args": [["", ""]],
+      "expected": ", and ",
+      "error": "הפונקציה לא החזירה את המחרוזת הצפויה"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "02-diverse list",
+  "name": "התמודדות עם רשימה מגוונת",
+  "description": "הפונקציה format_list תקבל רשימה בת 3 איברים (מסוגים שונים) ותחזיר עותק שלה מוזזת שמאלה.",
+  "method_name": "shift_left",
+  "method_signature": "shift_left(my_list)",
+  "test": [
+    {"type": "equal",
+      "args": [[null,1337, "as"]],
+      "expected": [1337, "as", null],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

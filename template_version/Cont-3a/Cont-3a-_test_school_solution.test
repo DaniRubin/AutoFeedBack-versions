@@ -1,0 +1,8 @@
+input:
+    program:
+        filename: Cont-3a.py
+    username: "whatever"
+    html_template: "whatever"
+result: success
+tests:
+    grade: '100'

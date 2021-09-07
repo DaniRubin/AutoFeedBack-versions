@@ -1,0 +1,14 @@
+{
+  "id": "01-short list",
+  "name": "שני מוצרים",
+  "description": "הפונקציה מקבלת רשימה המכילה שני מוצרים",
+  "method_name": "sort_prices",
+  "method_signature": "sort_prices(list_of_tuples)",
+  "test": [
+    {"type": "equal",
+      "args": [[["milk", "5.5"], ["bread", "9.0"]]],
+      "expected": [["bread", "9.0"], ["milk", "5.5"]],
+      "error": "הפונקציה לא החזירה את הרשימה בסדר הצפוי"
+    }
+  ]
+}

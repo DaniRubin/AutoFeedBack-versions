@@ -1,0 +1,14 @@
+{
+  "id": "01-True",
+  "name": "זיהוי אורך אפשרי",
+  "description": "הפונקציה chocolate_maker תזהה מצב בו ניתן לבנות שורה באורך X.",
+  "method_name": "chocolate_maker",
+  "method_signature": "chocolate_maker(small, big, x)",
+  "test": [
+    {"type": "equal",
+      "args": [5,5,17],
+      "expected": true,
+      "error": "הפונקציה לא זיהתה שניתן לבנות שורה באורך 17 מ-5 קוביות גדולות ו-5 קטנות"
+    }
+  ]
+}

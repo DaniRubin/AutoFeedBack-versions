@@ -1,0 +1,14 @@
+{
+  "id": "01-capital not in list",
+  "name": "תו שלא נוחש בעבר",
+  "description": "הפנקציה תקבל תו שלא נוחש בעבר",
+  "method_name": "check_valid_input",
+  "method_signature": "check_valid_input(letter_guessed, old_letters_guessed)",
+  "test": [
+    {"type": "equal",
+      "args": ["z", ["a","b","c"]],
+      "expected": true,
+      "error": "הפונקציה לא החזירה True"
+    }
+  ]
+}

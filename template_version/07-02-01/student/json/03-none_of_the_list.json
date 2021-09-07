@@ -1,0 +1,14 @@
+{
+  "id": "03-none",
+  "name": "רשימה ריקה",
+  "description": "הפונקציה מחזירה רשימה ריקה",
+  "method_name": "is_greater",
+  "method_signature": "is_greater(my_list, n)",
+  "test": [
+    {"type": "equal",
+      "args": [[1,2,3,4,5],6],
+      "expected": [],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

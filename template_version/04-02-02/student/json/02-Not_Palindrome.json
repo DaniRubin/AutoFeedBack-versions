@@ -1,0 +1,14 @@
+{
+  "id": "02-not a palindrome",
+  "name": "זיהוי של מחרוזת שאינה פלינדרום",
+  "description": "התכנית תקלוט מחרוזת, תזהה שהיא איננה פלינדרום, ותחזיר פלט בהתאם.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "מחרוזת שאינה פלינדרום", "value": "Night"},
+    {"type": "output", "name": "אישור שלא מדובר בפלינדרום", "value": "NOT"}
+  ]
+}

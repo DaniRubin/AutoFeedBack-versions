@@ -1,0 +1,14 @@
+{
+  "id": "01-short",
+  "name": "",
+  "description": "",
+  "method_name": "my_mp3_playlist",
+  "method_signature": "my_mp3_playlist(file_path)",
+  "test": [
+    {"type": "equal",
+      "args": ["./student/files/songs-short.txt"],
+      "expected": ["Where is the love?", 1, "The Black Eyed Peas"],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

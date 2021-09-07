@@ -1,0 +1,14 @@
+{
+  "id": "04-non-letter",
+  "name": "תו שאיננו אות",
+  "description": "התכנית תקלוט תו שאינינו אות ותדפיס סימן שגיאה מתאים.",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "סימן שאינינו אות", "value": "$"},
+    {"type": "output", "name": "הודעת שגיאה", "value": "E2"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "05-long-non-letter",
+  "name": "מחרוזת ארוכה מדי עם תו שאיננו אות",
+  "description": "התכנית תקלוט מחרוזת ארוכה מדי עם תו שאיננו אותותדפיס סימן שגיאה מתאים.",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "מחרוזת ארוכה מדי עם תו שאיננו אות", "value": "123!"},
+    {"type": "output", "name": "הודעת שגיאה", "value": "E3"}
+  ]
+}

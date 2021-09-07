@@ -1,0 +1,22 @@
+{
+  "id": "02 - long",
+  "name": "",
+  "description": "",
+  "method_name": "my_mp4_playlist",
+  "method_signature": "my_mp4_playlist(file_path, new_song)",
+  "test": [
+    {"type": "equal",
+      "args": ["./student/files/songs-long.txt","Hello"],
+      "expected": null,
+      "expected_stdout":[
+        "Tudo Bom;Static and Ben El Tavori;5:13;",
+        "I Gotta Feeling;The Black Eyed Peas;4:05;",
+        "Hello;Unknown;4:15;",
+        "Paradise;Coldplay;4:23;",
+        "Where is the love?;The Black Eyed Peas;4:13;"
+      ],
+      "error": "",
+      "error_message_in_case_of_print_outs": "הפונקציה לא הדפיסה את הפלט הצפוי"
+    }
+  ]
+}

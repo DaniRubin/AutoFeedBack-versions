@@ -1,0 +1,13 @@
+{
+  "id": "01-message",
+  "name": "פענוח הודעת הסתר",
+  "description": "התכנית תקלוט את ההודעה המוצפנת ('!XgXnXiXcXiXlXsX XnXoXhXtXyXpX XgXnXiXnXrXaXeXlX XmXaX XI') ותדפיס אותה מפוענחת ('!I am learning python slicing').",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "output", "name": "המחרוזת המפוענחת", "value": "I am learning python slicing!"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "02-long list",
+  "name": "מחירים שונים",
+  "description": "הפונקציה מקבלת רשימה המכילה ארבעה מוצרים",
+  "method_name": "sort_prices",
+  "method_signature": "sort_prices(list_of_tuples)",
+  "test": [
+    {"type": "equal",
+      "args": [[["milk", "5.5"], ["bread", "5.51"], ["candy", "2.50"], ["bread", "9.0"]]],
+      "expected": [["bread", "9.0"], ["bread", "5.51"], ["milk", "5.5"], ["candy", "2.50"]],
+      "error": "הפונקציה לא החזירה את הרשימה בסדר הצפוי"
+    }
+  ]
+}

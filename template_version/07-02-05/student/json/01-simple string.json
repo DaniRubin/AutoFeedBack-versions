@@ -1,0 +1,14 @@
+{
+  "id": "01-simple string",
+  "name": "צמצום מחרוזת",
+  "description": "הפונקציה sequence_del תקבל מחרוזת ותחזיר אותה בלי תוים כפולים.",
+  "method_name": "sequence_del",
+  "method_signature": "sequence_del(my_str)",
+  "test": [
+    {"type": "equal",
+      "args": ["pyyyyyyttthhhooonnnn"],
+      "expected": "python",
+      "error": "הפונקציה לא מחקה כראוי את התוים"
+    }
+  ]
+}

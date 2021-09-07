@@ -1,0 +1,13 @@
+{
+  "id": "02-short",
+  "name": "זיהוי מחסור בקוביות",
+  "description": "הפונקציה chocolate_maker תזהה מצב בו לא ניתן לבנות שורה באורך X.",
+  "method_name": "chocolate_maker",
+  "test": [
+    {"type": "equal",
+      "args": [2,5,17],
+      "expected": true,
+      "error": "הפונקציה לא זיהתה שלא ניתן לבנות שורה באורך 17 מ-2 קוביות גדולות ו-5 קטנות"
+    }
+  ]
+}

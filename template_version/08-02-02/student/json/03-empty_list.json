@@ -1,0 +1,14 @@
+{
+  "id": "03-empty list",
+  "name": "רשימה ריקה",
+  "description": "הפונקציה מקבלת רשימה ריקה",
+  "method_name": "sort_prices",
+  "method_signature": "sort_prices(list_of_tuples)",
+  "test": [
+    {"type": "equal",
+      "args": [[]],
+      "expected": [],
+      "error": "הפונקציה לא החזירה את הרשימה בסדר הצפוי"
+    }
+  ]
+}

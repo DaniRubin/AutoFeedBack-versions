@@ -1,0 +1,14 @@
+{
+  "id": "01-normal win",
+  "name": "בדיקת ניצחון כאשר כל האותיות כבר נוחשו",
+  "description": "הפונקציה תקלוט מחרוזת סודית ורשימת אותיות שכוללת את כל האותיות במחרוזת. בתמורה תחזיר הפונקציה את ערך הניצחון (True)",
+  "method_name": "check_win",
+  "method_signature": "check_win(secret_word, old_letters_guessed)",
+  "test": [
+    {"type": "equal",
+      "args": ["typewriter",["q","w","e","r","t","y","u","i","o","p"]],
+      "expected": true,
+      "error": "הפונקציה לא החזירה True"
+    }
+  ]
+}

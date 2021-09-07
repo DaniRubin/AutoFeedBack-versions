@@ -1,0 +1,13 @@
+{
+  "id": "03-empty string",
+  "name": "התמודדות עם מחרוזת ריקה",
+  "description": "הפונקציה numbers_letters_count תקבל מחרוזת ריקה ותחזיר רשימה של שני איברים תואמים.",
+  "method_name": "numbers_letters_count",
+  "test": [
+    {"type": "equal",
+      "args": [""],
+      "expected": [0, 0],
+      "error": "הפונקציה לא ספרה כראוי את התוים המחרוזת"
+    }
+  ]
+}

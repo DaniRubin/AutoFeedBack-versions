@@ -1,0 +1,13 @@
+{
+  "id": "02- recognize True 2",
+  "name": "זיהוי מצב שני בו המשתנים עומדים בשני התנאים",
+  "description": "הפונקציה distance תזהה כי המספר השלישי קרוב לראשון ושהשניי רחוק משניהם.",
+  "method_name": "distance",
+  "test": [
+    {"type": "equal",
+      "args": [11,1,10],
+      "expected": true,
+      "error": "הפונקציה לא החזירה ערך True"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "03- different lists",
+  "name": "זיהוי רשימות בעלות איברים שונים",
+  "description": "הפונקציה are_lists_equal תקבל שתי רשימות בעלות איברים שונים ותחזיר תשובה בהתאם.",
+  "method_name": "are_lists_equal",
+  "test": [
+    {"type": "equal",
+      "args": [[1, 2, 3.5], [1, 4, 3.5]],
+      "expected": false,
+      "error": "הפונקציה לא החזירה False"
+    }
+  ]
+}

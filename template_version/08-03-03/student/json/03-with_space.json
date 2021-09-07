@@ -1,0 +1,14 @@
+{
+  "id": "03 - with spaces",
+  "name": "תווים כולל רווחים",
+  "description": "הפונקציה מקבלת מחרוזת עם רווחים",
+  "method_name": "count_chars",
+  "method_signature": "count_chars(my_str)",
+  "test": [
+    {"type": "equal",
+      "args": ["Abra Cabrera"],
+      "expected": {"A": 1, "C": 1, "a": 3, "b": 2, "e": 1, "r": 3},
+      "error": "הפונקציה לא החזירה את המילון הצפוי"
+    }
+  ]
+}

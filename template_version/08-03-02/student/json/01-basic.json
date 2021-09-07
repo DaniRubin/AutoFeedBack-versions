@@ -1,0 +1,14 @@
+{
+  "id": "01-last name",
+  "name": "הדפסת שם המשפחה",
+  "description": "התכנית תקלוט '1' ותדפיס את שם משפחתה של מריה.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "פקודת קלט", "value": "1"},
+    {"type": "output", "name": "שם משפחתה של מריה", "value": "Carey"}
+  ]
+}

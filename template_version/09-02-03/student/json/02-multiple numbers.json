@@ -1,0 +1,14 @@
+{
+  "id": "02-multiple numbers",
+  "name": "",
+  "description": "",
+  "method_name": "who_is_missing",
+  "method_signature": "who_is_missing(file_name)",
+  "test": [
+    {"type": "equal",
+      "args": ["./student/files/fifteen_numbers.txt"],
+      "expected": 6,
+      "error": "הפונקציה לא החזירה את המספר החסר"
+    }
+  ]
+}

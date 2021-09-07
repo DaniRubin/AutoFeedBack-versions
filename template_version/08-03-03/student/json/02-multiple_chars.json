@@ -1,0 +1,14 @@
+{
+  "id": "02- multiple chars",
+  "name": "ארבעה תווים",
+  "description": "הפונקציה מקבלת מחרוזת אשר כל תו בה מופיע פעם אחת",
+  "method_name": "count_chars",
+  "method_signature": "count_chars(my_str)",
+  "test": [
+    {"type": "equal",
+      "args": ["Canada"],
+      "expected": {"a": 3, "C": 1, "n":1, "d":1},
+      "error": "הפונקציה לא החזירה את המילון הצפוי"
+    }
+  ]
+}

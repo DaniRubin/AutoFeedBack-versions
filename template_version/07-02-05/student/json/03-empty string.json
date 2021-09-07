@@ -1,0 +1,13 @@
+{
+  "id": "03-empty string",
+  "name": "התמודדות עם מחרוזת",
+  "description": "הפונקציה sequence_del תקבל מחרוזת ריקה ותחזיר אותה בלי תוים כפולים (ריקה).",
+  "method_name": "sequence_del",
+  "test": [
+    {"type": "equal",
+      "args": [""],
+      "expected": "",
+      "error": "הפונקציה לא התמודדה כראוי עם מחרוזת ריקה"
+    }
+  ]
+}

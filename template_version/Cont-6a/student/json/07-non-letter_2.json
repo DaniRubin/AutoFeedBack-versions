@@ -1,0 +1,14 @@
+{
+  "id": "07 - non letter guess 2",
+  "name": "התמודדות עם סימנים",
+  "description": "הפונקציה תקבל סימן שנמצא ברשימה",
+  "method_name": "check_valid_input",
+  "method_signature": "check_valid_input(letter_guessed, old_letters_guessed)",
+  "test": [
+    {"type": "equal",
+      "args": ["$", ["!","?","$"]],
+      "expected": false,
+      "error": "הפונקציה לא החזירה False"
+    }
+  ]
+}

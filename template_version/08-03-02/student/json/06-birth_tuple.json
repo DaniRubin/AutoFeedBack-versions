@@ -1,0 +1,16 @@
+{
+  "id": "06-tuple",
+  "name": "שינוי תאריך הלידה לטאפל והדפסתו",
+  "description": "התכנית תקלוט '6' ותדפיס את תאריך לידתה של מריה לאחר שהוצר לטאפל.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "פקודת קלט", "value": "6"},
+    {"type": "output", "name": "היום בחודש", "value": "27"},
+    {"type": "output", "name": "החודש", "value": "3"},
+    {"type": "output", "name": "השנה", "value": "1970"}
+  ]
+}

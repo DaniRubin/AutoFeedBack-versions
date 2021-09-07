@@ -1,0 +1,14 @@
+{
+  "id": "02-all anagrams",
+  "name": "כל המחרוזות ברשימה הן אנגרמות",
+  "description": "הפונקציה מקבלת רשימה המכילה אך ורק מחרוזות המקיימות אנגרמות",
+  "method_name": "sort_anagrams",
+  "method_signature": "sort_anagrams(list_of_strings)",
+  "test": [
+    {"type": "equal",
+      "args": [["abc","bca","cba"]],
+      "expected": [["abc","bca","cba"]],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

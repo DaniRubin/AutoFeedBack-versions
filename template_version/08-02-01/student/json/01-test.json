@@ -1,0 +1,13 @@
+{
+  "id": "01-test",
+  "name": "tuples and string formatting",
+  "description": "התכנית תדפיס הפלט הצפוי תוך שימוש ב-string formatting.",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "output", "name": "הפלט הצפוי", "value": "Hello self.py learner, you have only 1.5 units left before you master the course!"}
+  ]
+}

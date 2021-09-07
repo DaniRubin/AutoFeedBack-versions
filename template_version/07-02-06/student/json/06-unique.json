@@ -1,0 +1,26 @@
+{
+  "id": "06-unique",
+  "name": "מחיקת פריטים כפולים",
+  "description": "התכנית תקלוט רשימת קניות עם פריטים כפולים. לאחר מכן תקבל פקודת מחיקה לפריטים כפולים ותמחוק אותם. על מנת לבדוק שהפריטים אכן נמחקו כראוי, התכנית תקבל פקודות הדפסה לאורך הרשימה ופקודות חיפוש עבור בפריטים השונים. לבסוף תקבל התכנית פקודת יציאה ותסתיים.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "רשימת קניות", "value": "apple,banana,coconut,apple,banana,coconut,apple,banana,coconut"},
+    {"type": "input", "name": "פקודת מחיקת פריטים כפולים", "value": "8"},
+    {"type": "input", "name": "פקודת הדפסת אורך", "value": "2"},
+    {"type": "output", "name": "אורך הרשימה", "value": "3"},
+    {"type": "input", "name": "פקודת חיפוש פריט", "value": "3"},
+    {"type": "input", "name": "פריט 1 לחיפוש", "value": "apple"},
+    {"type": "output", "name": "האם פריט 1 נמצא", "value": "True"},
+    {"type": "input", "name": "פקודת חיפוש פריט", "value": "3"},
+    {"type": "input", "name": "פריט 2 לחיפוש", "value": "banana"},
+    {"type": "output", "name": "האם פריט 2 נמצא", "value": "True"},
+    {"type": "input", "name": "פקודת חיפוש פריט", "value": "3"},
+    {"type": "input", "name": "פריט 3 לחיפוש", "value": "coconut"},
+    {"type": "output", "name": "האם פריט 3 נמצא", "value": "True"},
+    {"type": "input", "name": "פקודת יציאה", "value": "9"}
+  ]
+}

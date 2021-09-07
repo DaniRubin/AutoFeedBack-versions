@@ -1,0 +1,19 @@
+{
+  "id": "03-capital in list",
+  "name": "התמודדות עם תו גדול",
+  "description": "הפונקציה תקבל תו גדול שכן נוחש בעבר",
+  "method_name": "try_update_letter_guessed",
+  "method_signature": "try_update_letter_guessed(letter_guessed, old_letters_guessed)",
+  "test": [
+    {"type": "equal",
+      "args": ["A", ["a","b","c"]],
+      "expected": false,
+      "expected_stdout":[
+        "X",
+        "a -> b -> c"
+      ],
+      "error": "הפונקציה לא החזירה False",
+      "error_message_in_case_of_print_outs": "הפונקציה לא הדפיסה את הפלט הצפוי"
+    }
+  ]
+}

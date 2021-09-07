@@ -1,0 +1,14 @@
+{
+  "id": "01-some",
+  "name": "גדול מ2",
+  "description": "הפונקציה מחזירה רשימה של כל המספרים הגדולים מ2",
+  "method_name": "is_greater",
+  "method_signature": "is_greater(my_list, n)",
+  "test": [
+    {"type": "equal",
+      "args": [[7,0,3,1,5],2],
+      "expected": [7,3,5],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

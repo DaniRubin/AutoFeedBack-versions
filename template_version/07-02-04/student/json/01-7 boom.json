@@ -1,0 +1,14 @@
+{
+  "id": "01-7 boom",
+  "name": "שבע בום",
+  "description": "הפונקציה תקבל את הספרה 7 ותחזירהרשימה של כל המספרים מ0 עד 7 (כולל). אם המספר מכיל 7 או מתחלק בו ללא שארית, הוא מוחלף ב-'BOOM'.",
+  "method_name": "seven_boom",
+  "method_signature": "seven_boom(end_number)",
+  "test": [
+    {"type": "equal",
+      "args": [7],
+      "expected": ["BOOM", 1, 2, 3, 4, 5, 6, "BOOM"],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

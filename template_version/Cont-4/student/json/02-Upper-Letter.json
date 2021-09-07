@@ -1,0 +1,14 @@
+{
+  "id": "02-Upper",
+  "name": "אות גדולה",
+  "description": "התכנית תקלוט אות גדולה ותדפיס אותה קטנה.",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "האות כקלט", "value": "Z"},
+    {"type": "output", "name": "האות כפלט", "value": "z"}
+  ]
+}

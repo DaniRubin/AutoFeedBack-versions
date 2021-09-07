@@ -1,0 +1,16 @@
+accessible: true
+author: ''
+context: 'Paste your Python code here:'
+environment: intro2
+evaluate: best
+groups: false
+limits: {memory: '100', output: '2', time: '30'}
+name: 9.2.3
+network_grading: false
+order: 923
+problems:
+  program: {header: '', language: python, name: '', type: code}
+stored_submissions: 0
+submission_limit: {amount: -1, period: -1}
+type: python-unit-test
+weight: 2.0

@@ -1,0 +1,14 @@
+{
+  "id": "03-long",
+  "name": "מחרוזת ארוכה מדי",
+  "description": "התכנית תקלוט מחרוזת ארוכה מדי ותדפיס סימן שגיאה מתאים.",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+     {"type": "input", "name": "מחרוזת באורך של יותר מתו", "value": "abcd"},
+     {"type": "output", "name": "הודעת שגיאה", "value": "E1"}
+  ]
+}

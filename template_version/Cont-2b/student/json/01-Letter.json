@@ -1,0 +1,14 @@
+{
+  "id": "01-letter",
+  "name": "בדיקת זיהוי והדפסה של אות",
+  "description": "התכנית תקלוט אות ותדפיס אותה.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "אות", "value": "z"},
+    {"type": "output", "name": "אות", "value": "z"}
+  ]
+}

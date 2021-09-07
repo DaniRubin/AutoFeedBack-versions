@@ -1,0 +1,13 @@
+{
+  "id": "03-defaults",
+  "name": "שימוש בברירות מחדל",
+  "description": "הפונקציה filter_teens תיקרא ללא ערכים מדוייקים ותפעל לפי ברירת המחדל.",
+  "method_name": "filter_teens",
+  "test": [
+    {"type": "equal",
+      "args": [],
+      "expected": 0,
+      "error": "הפונקציה לא החזירה 0"
+    }
+  ]
+}

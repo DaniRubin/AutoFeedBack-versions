@@ -1,0 +1,14 @@
+{
+  "id": "01-Celsius to Fahrenheit",
+  "name": "המרה מצלזיוס לפרנהייט",
+  "description": "התכנית תקלוט טמפרטורה במעלות צלזיוס שלמות ותחזיר אותה במעלות פרנהייט.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "הטמפרטורה עם C גדולה לציון השימוש בצלזיוס", "value": "0C"},
+    {"type": "output", "name": "הטמפרטורה בפרנהייט", "value": "32"}
+  ]
+}

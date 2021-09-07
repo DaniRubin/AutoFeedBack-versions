@@ -1,0 +1,14 @@
+{
+  "id": "01-single range",
+  "name": "התמודדות עם אותו מספר",
+  "description": "הפונקציה squared_numbers תקבל את אותו מספר פעמיים ותחזיר רשימה בת איבר אחד של ריבועו.",
+  "method_name": "squared_numbers",
+  "method_signature": "squared_numbers(start, stop)",
+  "test": [
+    {"type": "equal",
+      "args": [0, 0],
+      "expected": [0],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

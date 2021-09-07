@@ -1,0 +1,13 @@
+{
+  "id": "05-add",
+  "name": "הוספת תחביב",
+  "description": "Cooking התכנית תקלוט '5' תוסיף תחביב חדש בשם",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "פקודת קלט", "value": "5"}
+  ]
+}

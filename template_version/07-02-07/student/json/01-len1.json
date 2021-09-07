@@ -1,0 +1,14 @@
+{
+  "id": "01-len1",
+  "name": "יצירת חץ בגודל 1",
+  "description": " ",
+  "method_name": "arrow",
+  "method_signature": "arrow(my_char, max_length)",
+  "test": [
+    {"type": "equal",
+      "args": ["D", 1],
+      "expected": "D",
+      "error": "הפונקציה לא החזירה את החץ כראוי"
+    }
+  ]
+}

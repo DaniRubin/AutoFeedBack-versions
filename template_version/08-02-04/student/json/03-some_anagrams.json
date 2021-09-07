@@ -1,0 +1,14 @@
+{
+  "id": "03-some anagrams",
+  "name": "חלק מן המחרוזות הן אנגרמות",
+  "description": "הפונקציה מקבלת רשימה המכילה מחרוזות אשר חלקן הן אנגרמות",
+  "method_name": "sort_anagrams",
+  "method_signature": "sort_anagrams(list_of_strings)",
+  "test": [
+    {"type": "equal",
+      "args": [["abc","bcd","cba"]],
+      "expected": [["abc", "cba"],["bcd"]],
+      "error": "הפונקציה לא החזירה את הרשימה בסדר הצפוי"
+    }
+  ]
+}

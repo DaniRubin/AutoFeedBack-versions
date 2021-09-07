@@ -1,0 +1,13 @@
+{
+  "id": "02-capitals",
+  "name": "צמצום מחרוזת עם אותיות גדולות וקטנות",
+  "description": "הפונקציה sequence_del תקבל מחרוזת ותחזיר אותה בלי תוים כפולים. שימו לב שאותיות גדולות וקטנות הם תוים שונים.",
+  "method_name": "sequence_del",
+  "test": [
+    {"type": "equal",
+      "args": ["AAAAAAAbbbbb!!BBBBBaaaaa"],
+      "expected": "Ab!Ba",
+      "error": "הפונקציה לא מחקה כראוי את התוים"
+    }
+  ]
+}

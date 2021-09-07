@@ -1,0 +1,14 @@
+{
+  "id": "04-last hobby",
+  "name": "הדפסת התחביב האחרון",
+  "description": "התכנית תקלוט '4' ותדפיס תחביבה האחרון של מריה.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "פקודת קלט", "value": "4"},
+    {"type": "output", "name": "תחביבה האחרון של מריה", "value": "Act"}
+  ]
+}

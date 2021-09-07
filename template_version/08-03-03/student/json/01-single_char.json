@@ -1,0 +1,14 @@
+{
+  "id": "01-single char",
+  "name": "תו בודד",
+  "description": "הפונקציה מקבלת מחרוזת המורכבת מאותו התו",
+  "method_name": "count_chars",
+  "method_signature": "count_chars(my_str)",
+  "test": [
+    {"type": "equal",
+      "args": ["AAA"],
+      "expected": {"A": 3},
+      "error": "הפונקציה לא החזירה את המילון הצפוי"
+    }
+  ]
+}

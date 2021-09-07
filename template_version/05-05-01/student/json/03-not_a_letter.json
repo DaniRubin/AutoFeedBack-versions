@@ -1,0 +1,14 @@
+{
+  "id": "03-not a letter",
+  "name": "תו מיוחד",
+  "description": "הפונקציה מקבלת תו מיוחד וצריכה להחזיר שקר",
+  "method_name": "is_valid_input",
+  "method_signature": "is_valid_input(letter_guessed)",
+  "test": [
+    {"type": "equal",
+      "args": ["!"],
+      "expected": false,
+      "error": "הפונקציה לא החזירה false"
+    }
+  ]
+}

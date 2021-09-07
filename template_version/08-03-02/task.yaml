@@ -1,0 +1,15 @@
+accessible: true
+author: ''
+context: 'Paste your Python code here:'
+environment: intro2
+evaluate: best
+groups: false
+limits: {memory: '100', output: '2', time: '30'}
+name: 8.3.2
+network_grading: false
+problems:
+  program: {header: '', language: python, name: '', type: code}
+stored_submissions: 0
+submission_limit: {amount: -1, period: -1}
+weight: 1.0
+order: 832

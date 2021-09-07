@@ -1,0 +1,14 @@
+{
+  "id": "07-age",
+  "name": "הוספת הגיל והדפסתו",
+  "description": "התכנית תקלוט '7', תוסיף מפתח חדש בשם age לותדפיס את גילה של מריה.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "פקודת קלט", "value": "7"},
+    {"type": "output", "name": "גילה של מריה", "value": "51"}
+  ]
+}

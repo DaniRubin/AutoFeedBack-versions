@@ -1,0 +1,14 @@
+{
+  "id": "01- concat lists",
+  "name": "חיבור שתי רשימות כראוי",
+  "description": "הפונקציה extend_x תקבל שני רשימות ותחזיר את חיבורן.",
+  "method_name": "extend_list_x",
+  "method_signature": "extend_list_x(list_x, list_y)",
+  "test": [
+    {"type": "equal",
+      "args": [[4, 5, 6],[1, 2, 3]],
+      "expected": [1, 2, 3, 4, 5, 6],
+      "error": "הפונקציה לא החזירה את חיבור הרשימות הצפוי"
+    }
+  ]
+}

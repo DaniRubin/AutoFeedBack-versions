@@ -1,0 +1,14 @@
+{
+  "id": "01-typewriter",
+  "name": "קליטת מילה והדפסת קוים אופקיים",
+  "description": "התכנית תקלוט מילה ללא רווחים ותדפיס קוים אופקיים מרווחים כמספר האותיות במילה.",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "מילה אחת בת 10 אותיות ללא רווחים", "value": "typewriter"},
+    {"type": "output", "name": "10 קוים אופקיים עם רווחים ביניהם" , "value": "_ _ _ _ _ _ _ _ _ _"}
+  ]
+}

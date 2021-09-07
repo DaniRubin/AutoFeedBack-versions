@@ -1,0 +1,12 @@
+{
+  "id": "01-test",
+  "name": "בדיקת הרצה של הקוד",
+  "description": "בדיקה זו בודקת כי הקוד שכתבת רץ ללא שגיאות.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+  ]
+}

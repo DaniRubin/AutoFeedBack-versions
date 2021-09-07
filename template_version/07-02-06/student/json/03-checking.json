@@ -1,0 +1,23 @@
+{
+  "id": "03-checking",
+  "name": "בדיקת פריטים וספירתם",
+  "description": "התכנית תקלוט רשימת קניות, תקבל שתי פקודות חיפוש אחר פריט (אחד לא קיים, השני קיים), פקודת ספירת פריט עבור הפריט שקיים ופקודת יציאה.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "רשימת קניות", "value": "apple,banana,coconut"},
+    {"type": "input", "name": "פקודת חיפוש פריט", "value": "3"},
+    {"type": "input", "name": "פריט 1 לחיפוש", "value": "orange"},
+    {"type": "output", "name": "האם פריט 1 נמצא", "value": "False"},
+    {"type": "input", "name": "פקודת חיפוש פריט", "value": "3"},
+    {"type": "input", "name": "פריט 2 לחיפוש", "value": "banana"},
+    {"type": "output", "name": "האם פריט 2 נמצא", "value": "True"},
+    {"type": "input", "name": "פקודת ספירת פריט", "value": "4"},
+    {"type": "input", "name": "הפריט לספירה", "value": "banana"},
+    {"type": "output", "name": "מספר הפעמים שהפריט מופיע", "value": "1"},
+    {"type": "input", "name": "פקודת יציאה", "value": "9"}
+  ]
+}

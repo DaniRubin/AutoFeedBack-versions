@@ -1,0 +1,14 @@
+{
+  "id": "01-positive range",
+  "name": "התמודדות עם טווח מספרים חיובי",
+  "description": "הפונקציה squared_numbers תקבל שני מספרים חיוביים שונים ותחזיר את רשימה ריבועי כל המספרים שבטווח בינהם (כולל).",
+  "method_name": "squared_numbers",
+  "method_signature": "squared_numbers(start, stop)",
+  "test": [
+    {"type": "equal",
+      "args": [10,13],
+      "expected": [100,121,144,169],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "04-mixed string",
+  "name": "מעבר על מחרוזת משולבת",
+  "description": "הפונקציה numbers_letters_count תקבל מחרוזת ותחזיר רשימה בת שני איברים שאיברה הראשון הוא מספר הספרות במחרוזת ואיברה השני הוא מספר התום שאינם ספרות.",
+  "method_name": "numbers_letters_count",
+  "method_signature": "numbers_letters_count(my_str)",
+  "test": [
+    {"type": "equal",
+      "args": ["abc!@# 6.3"],
+      "expected": [2, 8],
+      "error": "הפונקציה לא ספרה כראוי את התוים המחרוזת"
+    }
+  ]
+}

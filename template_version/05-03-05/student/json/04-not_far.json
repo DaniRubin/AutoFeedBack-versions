@@ -1,0 +1,13 @@
+{
+  "id": "04- recognize False (not far)",
+  "name": "זיהוי מצב ראשון בו המשתנים לא עומדים בתנאי השני של הפונקציה",
+  "description": "הפונקציה distance תזהה כי גם המספר השני וגם השלישי קרובים למספר הראשון.",
+  "method_name": "distance",
+  "test": [
+    {"type": "equal",
+      "args": [0,-1,1],
+      "expected": false,
+      "error": "הפונקציה לא החזירה ערך False"
+    }
+  ]
+}

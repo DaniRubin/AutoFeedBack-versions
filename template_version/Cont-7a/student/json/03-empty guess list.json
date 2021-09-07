@@ -1,0 +1,13 @@
+{
+  "id": "03-empty guess list",
+  "name": "בדיקת ניצחון כאשר לא נוחשה אף אות",
+  "description": "הפונקציה תקלוט מחרוזת סודית ורשימה ריקה. בתמורה תחזיר הפונקציה את ערך הניצחון (False)",
+  "method_name": "check_win",
+  "test": [
+    {"type": "equal",
+      "args": ["typewriter",[]],
+      "expected": false,
+      "error": "הפונקציה לא החזירה False"
+    }
+  ]
+}

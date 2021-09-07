@@ -1,0 +1,14 @@
+{
+  "id": "01-no anagrams",
+  "name": "ללא אנגרמות",
+  "description": "הפונקציה תקבל רשימת מחרוזות שלא מכילה אנגרמות",
+  "method_name": "sort_anagrams",
+  "method_signature": "sort_anagrams(list_of_strings)",
+  "test": [
+    {"type": "equal",
+      "args": [["abc","bcd","cda"]],
+      "expected": [["abc"],["bcd"],["cda"]],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

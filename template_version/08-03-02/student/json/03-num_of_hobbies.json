@@ -1,0 +1,14 @@
+{
+  "id": "03-num of hobbies",
+  "name": "הדפסת מספר התחביבים",
+  "description": "התכנית תקלוט '3' ותדפיס את מספר תחביביה של מריה.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "פקודת קלט", "value": "3"},
+    {"type": "output", "name": "מספר תחביביה של מריה", "value": "3"}
+  ]
+}

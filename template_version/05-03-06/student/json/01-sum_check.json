@@ -1,0 +1,14 @@
+{
+  "id": "01-sum check",
+  "name": "סכימת שלושת הגילאים",
+  "description": "הפונקציה filter_teens תקבל שלושה ערכים המייצגים שלושה גילאים ותחזיר את סכומם.",
+  "method_name": "filter_teens",
+  "method_signature": "filter_teens(a, b, c)",
+  "test": [
+    {"type": "equal",
+      "args": [1,2,3],
+      "expected": 6,
+      "error": "הפונקציה לא החזירה את סכום הגילאים"
+    }
+  ]
+}

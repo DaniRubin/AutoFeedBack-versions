@@ -1,0 +1,14 @@
+{
+  "id": "03-Decimal Point lower case c",
+  "name": "המרת טמפרטורה שאיננה שלמה",
+  "description": "התכנית תקלוט טמפרטורה במעלות צלזיוס לא שלמות ותמיר אותה לפרנהייט.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "טמפרטורה עם c קטנה לציון השימוש בצלזיוס", "value": "37.7c"},
+    {"type": "output", "name": "הטמפרטורה בפרנהייט", "value": "99.86"}
+  ]
+}

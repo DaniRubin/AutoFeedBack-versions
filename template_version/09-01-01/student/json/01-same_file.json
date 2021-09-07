@@ -1,0 +1,14 @@
+{
+  "id": "01-same file",
+  "name": "",
+  "description": "",
+  "method_name": "are_files_equal",
+  "method_signature": "are_files_equal(file1, file2)",
+  "test": [
+    {"type": "equal",
+      "args": ["./student/files/abc.txt", "./student/files/abc.txt"],
+      "expected": true,
+      "error": "הפונקציה לא החזירה True"
+    }
+  ]
+}

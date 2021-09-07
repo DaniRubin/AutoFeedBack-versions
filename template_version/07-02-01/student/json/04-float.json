@@ -1,0 +1,14 @@
+{
+  "id": "04-float",
+  "name": "מעבר על רשימה",
+  "description": "הפונקציה is_greater תקבל רשימה ומספר n ותחזיר מחרוזת של כל איברי המחרוזת המקורית שגדולים מ-n לפי הסדר.",
+  "method_name": "is_greater",
+  "method_signature": "is_greater(my_list, n)",
+  "test": [
+    {"type": "equal",
+      "args": [[1,2,3,4,5],3.7],
+      "expected": [4,5],
+      "error": "הפונקציה לא החזירה את הרשימה הצפויה"
+    }
+  ]
+}

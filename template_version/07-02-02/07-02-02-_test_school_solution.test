@@ -1,0 +1,8 @@
+input:
+    program:
+        filename: 07-02-02.py
+    username: "whatever"
+    html_template: "whatever"
+result: success
+tests:
+    grade: '100'

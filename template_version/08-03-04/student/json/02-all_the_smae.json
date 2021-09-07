@@ -1,0 +1,14 @@
+{
+  "id": "02-all the same",
+  "name": "כל המפתחות זהים",
+  "description": "הפונקציה מקבלת מילון ובו כל הערכים זהים",
+  "method_name": "inverse_dict",
+  "method_signature": "inverse_dict(my_dict)",
+  "test": [
+    {"type": "equal",
+      "args": [{ "a": "d" , "b":"d", "c": "d"}],
+      "expected": {"d":["a","b","c"]},
+      "error": "הפונקציה לא החזירה את המילון הצפוי"
+    }
+  ]
+}

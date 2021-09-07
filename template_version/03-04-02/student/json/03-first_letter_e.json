@@ -1,0 +1,23 @@
+{
+  "id": "03-first letter is 'e'",
+  "name": "החלפת התווים עבור מחרוזת המתחילה בתו e",
+  "description": "התכנית תקלוט מחרוזת, תזהה מהו התו הראשון בה ותחליף את כל הופעותיו, מלבד הראשונה, באות e.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {
+      "type": "input",
+      "name": "המחרוזת לפני ההחלפה",
+      "value": "edear astronaut. please, stop erasing me!"
+    },
+    {
+      "type": "output",
+      "name": "המחרוזת אחרי ההחלפה",
+      "value": "edear astronaut. please, stop erasing me!"
+    }
+  ],
+  "ShouldOutputBeforeEOF_ERROR": "ריצת התוכנית הסתיימה, אך הפלט המחרוזת אחרי ההחלפה (edear astronaut. please, stop erasing me!) לא הופיע או הופיע במקום הלא מתאים לפני כן. בנוסף דני רובין המלך עידכן את המשוב!"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "01-hangman",
+  "name": "בדיקת שבעת המצבים של האיש התלוי",
+  "description": "בדיקה זו בודקת שהמצבים שהדפסתם אכן נכונים",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+	{"type": "output", "name": "שלב 1", "value": " 1:\n    x-------x\n\n"},
+	{"type": "output", "name": "שלב 2", "value": " 2:\n    x-------x\n    |\n     |\n    |\n     |\n    |\n\n"},
+	{"type": "output", "name": "שלב 3", "value": " 3:\n    x-------x\n    |       |\n    |       0\n    |\n     |\n      |\n\n"},
+	{"type": "output", "name": "שלב 4", "value": " 4:\n    x-------x\n    |       |\n    |       0\n    |       |\n      |\n    |\n\n"},
+	{"type": "output", "name": "שלב 5", "value": " 5:\n    x-------x\n    |       |\n    |       0\n    |      /|\\\n    |\n    |\n\n"},
+	{"type": "output", "name": "שלב 6", "value": " 6:\n    x-------x\n    |       |\n    |       0\n    |      /|\\\n    |     / \n    |\n\n"},
+	{"type": "output", "name": "שלב 7", "value": " 7:\n    x-------x\n    |       |\n    |       0\n    |      /|\\\n    |     / \\\n    |\n\n"}
+  ]
+}

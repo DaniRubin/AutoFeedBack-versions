@@ -1,0 +1,14 @@
+{
+  "id": "01-one number",
+  "name": "",
+  "description": "",
+  "method_name": "who_is_missing",
+  "method_signature": "who_is_missing(file_name)",
+  "test": [
+    {"type": "equal",
+      "args": ["./student/files/one_number.txt"],
+      "expected": 1,
+      "error": "הפונקציה לא החזירה את המספר החסר"
+    }
+  ]
+}

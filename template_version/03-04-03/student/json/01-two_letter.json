@@ -1,0 +1,14 @@
+{
+  "id": "01-two letters string",
+  "name": "מחרוזת באורך שני תווים",
+  "description": "התוכנית תקלוט מחרוזת המכילה שני תווים (ab) ותחזיר אותה כאשר חציה הראשון באותיות קטנות וחציה השני (כולל התו האמצעי) באותיות גדולות (aB).",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "מחרוזת באורך שני תווים", "value": "ab"},
+    {"type": "output", "name": "המחרוזת לאחר השינויים", "value": "aB"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "02-even length string",
+  "name": "מחרוזת באורך זוגי",
+  "description": "התכנית תקלוט מחרוזת באורך זוגי (COOKIE) ותחזיר אותה כאשר חציה הראשון באותיות קטנות וחציה השני באותיות גדולות (cooKIE).",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "מחרוזת באורך זוגי", "value": "COOKIE"},
+    {"type": "output", "name": "המחרוזת לאחר השינויים", "value": "cooKIE"}
+  ]
+}

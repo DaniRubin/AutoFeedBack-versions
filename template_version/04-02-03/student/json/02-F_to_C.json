@@ -1,0 +1,14 @@
+{
+  "id": "02-Fahrenheit to Celsius",
+  "name": "המרה מפרנהייט לצלזיוס",
+  "description": "התכנית תקלוט טמפרטורה במעלות פרנהייט שלמות ותחזיר אותה במעלות צלזיוס.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "הטמפרטורה עם F גדולה לציון השימוש בפרנהייט", "value": "100F"},
+    {"type": "output", "name": "הטמפרטורה בצלזיוס", "value": "37.77"}
+  ]
+}

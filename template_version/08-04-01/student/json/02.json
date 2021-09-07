@@ -1,0 +1,23 @@
+{
+  "id": "02",
+  "name": "2 ניחושים",
+  "description": "",
+  "method_name": "print_hangman",
+  "method_signature": "print_hangman(num_of_tries)",
+  "test": [
+    {"type": "equal",
+      "args": [2],
+      "expected": null,
+      "expected_stdout":[
+        "x-------x",
+        "|",
+        "|",
+        "|",
+        "|",
+        "|"
+      ],
+      "error": "",
+      "error_message_in_case_of_print_outs": "הפונקציה לא הדפיסה את הפלט הצפוי"
+    }
+  ]
+}

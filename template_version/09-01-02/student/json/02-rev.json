@@ -1,0 +1,21 @@
+{
+  "id": "02-rev",
+  "name": "שורות הפוכות",
+  "description": "התכנית תקלוט נתיב קובץ ואת הפקודה sort. לאחר מכן תדפיס את שורות הקובץ הפוכות.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "נתיב הקובץ", "value": "./sampleFile.txt"},
+    {"type": "input", "name": "הפקודה", "value": "rev"},
+    {"type": "output", "name": "הכותרת", "value": "sreteP miT yb nohtyP fo neZ ehT"},
+    {"type": "output", "name": "שורה 1", "value": "ylgu naht retteb si lufituaeB"},
+    {"type": "output", "name": "שורה 2", "value": "ticilpmi naht retteb si ticilpxE"},
+    {"type": "output", "name": "שורה 3", "value": "xelpmoc naht retteb si elpmiS"},
+    {"type": "output", "name": "שורה 4", "value": "detacilpmoc naht retteb si xelpmoC"},
+    {"type": "output", "name": "שורה 5", "value": "detsen naht retteb si talF"},
+    {"type": "output", "name": "שורה 6", "value": "esned naht retteb si esrapS"}
+  ]
+}

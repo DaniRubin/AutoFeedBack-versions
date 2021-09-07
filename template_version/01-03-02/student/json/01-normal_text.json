@@ -1,0 +1,50 @@
+{
+  "id": "01-test",
+  "name": "ייבוא The Zen of Python",
+  "description": "התכנית תייבא את הספרייה המכילה את The Zen of Python.",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {
+      "type": "output",
+      "name": "הכותרת",
+      "value": "The Zen of Python, by Tim Peters"
+    },
+    {
+      "type": "output",
+      "name": "שורה 1",
+      "value": "Beautiful"
+    },
+    {
+      "type": "output",
+      "name": "שורה 2",
+      "value": "Explicit"
+    },
+    {
+      "type": "output",
+      "name": "שורה 3",
+      "value": "Simple"
+    },
+    {
+      "type": "output",
+      "name": "שורה 4",
+      "value": "Complex"
+    },
+    {
+      "type": "output",
+      "name": "שורה 5",
+      "value": "Flat"
+    },
+    {
+      "type": "output",
+      "name": "שורה 6",
+      "value": "Sparse"
+    }
+  ],
+  "ShouldOutputBeforeEOF_ERROR": "דני המלך",
+  "OverflowFeedbackError_ERROR": "זוהתה דליפת זיכרון חמורה. עלייך לתקן לפני שיתפוצץ לך המחשב!",
+  "ShouldOutput_ERROR": "לא הודפס כלום למסך איזה באסה :((((((((((((((("
+}

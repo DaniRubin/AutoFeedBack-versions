@@ -1,0 +1,17 @@
+{
+  "id": "01-test",
+  "name": "הדפסת ההוראות לטאקי",
+  "description": "התכנית תדפיס את ההוראות למשחק בפורמט המדויק.",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "output", "name": "שורה 1", "value": "\"Shuffle, Shuffle, Shuffle\", say it together!"},
+    {"type": "output", "name": "שורה 2", "value": "Change colors and directions,"},
+    {"type": "output", "name": "שורה 3", "value": "Don't back down and stop the player!"},
+    {"type": "output", "name": "שורה 4", "value": "Do you want to play Taki?"},
+    {"type": "output", "name": "שורה 5", "value": "Press y\\n"}
+  ]
+}

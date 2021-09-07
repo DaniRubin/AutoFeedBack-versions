@@ -1,0 +1,14 @@
+{
+  "id": "01-palindrome",
+  "name": "זיהוי של פלינדרום במילה אחת",
+  "description": "התכנית תקלוט פלינדרום בן מילה אחת, תזהה אותו, ותחזיר פלט בהתאם.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "פלינדרום", "value": "noon"},
+    {"type": "output", "name": "אישור שמדובר בפלינדרום", "value": "OK"}
+  ]
+}

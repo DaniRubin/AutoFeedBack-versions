@@ -1,0 +1,19 @@
+{
+  "id": "06- non letter guess",
+  "name": "התמודדות עם תו",
+  "description": "הפונקציה תקבל תו אשר לא מופיע ברשימה",
+  "method_name": "try_update_letter_guessed",
+  "method_signature": "try_update_letter_guessed(letter_guessed, old_letters_guessed)",
+  "test": [
+    {"type": "equal",
+      "args": ["$", ["b","c","a"]],
+      "expected": false,
+      "expected_stdout":[
+        "X",
+        "a -> b -> c"
+      ],
+      "error": "הפונקציה לא החזירה False",
+      "error_message_in_case_of_print_outs": "הפונקציה לא הדפיסה את הפלט הצפוי"
+    }
+  ]
+}

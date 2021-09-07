@@ -1,0 +1,14 @@
+{
+  "id": "04-number",
+  "name": "מספר",
+  "description": "הפונקציה מקבלת מספר וצריכה להחזיר שקר",
+  "method_name": "is_valid_input",
+  "method_signature": "is_valid_input(letter_guessed)",
+  "test": [
+    {"type": "equal",
+      "args": ["6"],
+      "expected": false,
+      "error": "הפונקציה לא החזירה false"
+    }
+  ]
+}

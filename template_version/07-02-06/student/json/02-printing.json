@@ -1,0 +1,20 @@
+{
+  "id": "02-printing",
+  "name": "הדפסת הרשימה ואורכה",
+  "description": "התכנית תקלוט רשימת קניות, תקבל פקודת הדפסת רשימה, פקודת הדפסת אורך, פקודת יציאה, ותסתיים.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "רשימת קניות", "value": "apple,banana,coconut"},
+    {"type": "input", "name": "פקודת הדפסת הרשימה", "value": "1"},
+    {"type": "output", "name": "הפריט הראשון", "value": "apple"},
+    {"type": "output", "name": "הפריט השני", "value": "banana"},
+    {"type": "output", "name": "הפריט השלישי", "value": "coconut"},
+    {"type": "input", "name": "פקודת הדפסת אורך", "value": "2"},
+    {"type": "output", "name": "אורך הרשימה", "value": "3"},
+    {"type": "input", "name": "פקודת יציאה", "value": "9"}
+  ]
+}

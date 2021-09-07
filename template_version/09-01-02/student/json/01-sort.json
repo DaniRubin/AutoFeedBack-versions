@@ -1,0 +1,15 @@
+{
+  "id": "01-sort",
+  "name": "רשימת מילים",
+  "description": "התכנית תקלוט נתיב קובץ ואת הפקודה sort. לאחר מכן תדפיס את רשימת המילים בקובץ, מסודרת אלפבתית וללא חזרות.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "נתיב הקובץ", "value": "./sampleFile.txt"},
+    {"type": "input", "name": "הפקודה", "value": "sort"},
+    {"type": "output", "name": "רשימת המילים", "value": "['*right*', '--', 'Although', 'Beautiful', 'Complex', 'Dutch', 'Errors', 'Explicit', 'Flat', 'If', 'In', 'Namespaces', 'Now', 'Peters', 'Python', 'Readability', 'Simple', 'Sparse', 'Special', 'The', 'There', 'Tim', 'Unless', 'Zen', 'a', 'ambiguity', 'and', 'are', \"aren't\", 'at', 'bad', 'be', 'beats', 'better', 'break', 'by', 'cases', 'complex', 'complicated', 'counts', 'dense', 'do', 'easy', 'enough', 'explain', 'explicitly', 'face', 'first', 'good', 'great', 'guess', 'hard', 'honking', 'idea', 'implementation', 'implicit', 'is', 'it', \"it's\", \"let's\", 'may', 'more', 'nested', 'never', 'not', 'now', 'obvious', 'of', 'often', 'one', 'only', 'pass', 'practicality', 'preferably', 'purity', 'refuse', 'rules', 'should', 'silenced', 'silently', 'special', 'temptation', 'than', 'that', 'the', 'those', 'to', 'ugly', 'unless', 'way', \"you're\"]"}
+  ]
+}

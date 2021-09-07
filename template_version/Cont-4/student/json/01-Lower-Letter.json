@@ -1,0 +1,14 @@
+{
+  "id": "01-lower",
+  "name": "אות קטנה",
+  "description": "התכנית תקלוט אות קטנה ותדפיס אותה.",
+  "flow": true,
+  "strictness": true,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": [],
+  "dialogue": [
+    {"type": "input", "name": "האות כקלט", "value": "z"},
+    {"type": "output", "name": "האות כפלט", "value": "z"}
+  ]
+}

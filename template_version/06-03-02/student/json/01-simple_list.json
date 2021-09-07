@@ -1,0 +1,14 @@
+{
+  "id": "01-simple list",
+  "name": "זיהוי האיבר הארוך ברשימה והחזרתו",
+  "description": "הפונקציה longest תקבל רשימה של מחרוזות ותחזיר את המחרוזת הארוכה ביותר ברשימה.",
+  "method_name": "longest",
+  "method_signature": "longest(my_list)",
+  "test": [
+    {"type": "equal",
+      "args": [["a", "b", "c", "abc", "typewriter", "d"]],
+      "expected": "typewriter",
+      "error": "הפונקציה לא החזירה את האיבר הכי ארוך ברשימה"
+    }
+  ]
+}
